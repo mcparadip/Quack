@@ -6,5 +6,11 @@
   "author": "Oliver Ni",
   "permissions": [
     "storage"
-  ]
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://quizlet.com/*/*-flash-cards/"],
+      "js": ["set.js"]
+    }
+  ],
 }
