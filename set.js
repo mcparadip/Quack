@@ -6,4 +6,6 @@ for (var i=0; i<termids.length/2; i++) {
     terms[termids[i+1].innerHTML.replace(/<!--[\s\S]*?-->/g, "")] = termids[i].innerHTML.replace(/<!--[\s\S]*?-->/g, "")
 }
 
-chrome.storage.sync.set({"set": terms}, function() {});
+chrome.storage.sync.set({"set": terms}, function() {
+    alert("This set has been loaded! You are now ready to play.")
+});
