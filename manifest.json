@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Quack",
+  "version": "1.0",
+  "description": "Chrome extension to automatically solve Quizlet games.",
+  "author": "Oliver Ni",
+  "permissions": [
+    "storage"
+  ]
+}
