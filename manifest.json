@@ -12,5 +12,5 @@
       "matches": ["*://quizlet.com/*/*-flash-cards/"],
       "js": ["set.js"]
     }
-  ],
+  ]
 }
