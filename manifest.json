@@ -11,6 +11,10 @@
     {
       "matches": ["*://quizlet.com/*/*-flash-cards/"],
       "js": ["set.js"]
+    },
+    {
+      "matches": ["*://quizlet.com/*/micromatch"],
+      "js": ["micromatch.js"]
     }
   ]
 }
